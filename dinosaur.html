@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dinosaur gogogo</title>
+    <link rel="stylesheet" href="css/dino.css">
+</head>
+
+<body>
+    <canvas class="canvas" id="canvas" width="1000px" height="400px"></canvas>
+    <div class="tip" id="tip">
+        <div class="tip_info">
+            <p class="key">SPACE</p><p class="function">恐龙跳跃</p>
+            <p class="detail">成功跳跃获得100积分</p>
+        </div>
+        <div class="tip_info">
+            <p class="key">M</p><p class="function">狂暴模式</p>
+            <p class="detail">积分大于500可开启狂暴模式，无敌状态持续5s</p>
+        </div>
+        <div class="tip_info">
+            <p class="function">积分每增加1000，升一级，速度增加1，速度最大为10</p>
+        </div>
+        <div class="tip_info">
+            <p class="function">github:</p>
+            <a href="#" class="detail">http://github.com/smartpig612/dinosaur</a>
+        </div>
+    </div>
+    <audio src="audio/level_up.mp3" id="level_up_audio"></audio>
+    <audio src="audio/jump.mp3" id="jump_audio"></audio>
+    <audio src="audio/die.mp3" id="die_audio"></audio>
+    <audio src="audio/boom.mp3" id="boom_audio"></audio>
+    <script src="js/dino.js"></script>
+    <script src="js/info.js"></script>
+</body>
+
+</html>
