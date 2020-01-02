@@ -1,0 +1,47 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: skyblue;
+}
+.canvas{
+    box-shadow:0px 5px 10px darkgray;
+}
+
+
+/*下方提示信息*/
+.tip_info{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+
+.function{
+    font-size: 16px;
+}
+.detail{
+    font-size: 14px;
+    color: indianred;
+    margin-left: 10px;
+}
+.key{
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+
